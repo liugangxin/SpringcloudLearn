@@ -26,5 +26,5 @@
   	<module>eureka-server</module>
     <module>eureka-producer</module>
 	<module>service-ribbon</module>
-  </modules> -->
+  </modules>
 </project>
