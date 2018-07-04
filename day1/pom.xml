@@ -4,8 +4,9 @@
 
   <groupId>com.liu</groupId>
   <artifactId>day1</artifactId>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
-<!--   <packaging>pom</packaging>
+<!--&lt;!&ndash;   <packaging>pom</packaging>-->
 
   <name>day1</name>
   <url>http://maven.apache.org</url>
@@ -26,5 +27,6 @@
   	<module>eureka-server</module>
     <module>eureka-producer</module>
 	<module>service-ribbon</module>
+    <module>service-feign</module>
   </modules>
 </project>
