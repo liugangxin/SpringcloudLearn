@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liugangxin/SpringcloudLearn
+          searchPaths: configFile
+          username: 
+          password: 
+      label: master
+server:
+  port: 8812
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8811/eureka/
