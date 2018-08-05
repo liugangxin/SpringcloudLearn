@@ -1,0 +1,8 @@
+server:
+  port: 9002
+  
+spring:
+  zipkin:
+    base-url: http://localhost:9001
+  application:
+    name: service-hi
